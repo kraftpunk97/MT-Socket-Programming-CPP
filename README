@@ -1,0 +1,11 @@
+There are three makefiles (one for server and two for each of the clients).
+
+
+Just run `make clean` and make to generate the binary. The binary can then be run from the terminal.
+
+
+Before setting up the project, please use `ifconfig` on the machine being used as the server to know its inet address. This address is then fed to the clients upon execution. The server port number is assumed to be 8083.
+
+Files `F1.txt` and `F2.txt` need to be terminated with a `1111`
+
+Thanks :)
